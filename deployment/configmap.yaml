@@ -5,7 +5,7 @@ metadata:
 data:
   DB_NAME: "postgresql"
   DB_USERNAME: "dbadmin"
-  DB_HOST: "10.100.246.144"
+  DB_HOST: "10.100.248.191"
   DB_PORT: "5432"
 ---
 apiVersion: v1
