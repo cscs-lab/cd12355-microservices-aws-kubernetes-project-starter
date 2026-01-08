@@ -4,7 +4,7 @@ FROM python:3.10-bullseye
 RUN mkdir /src
 
 WORKDIR /src
-COPY . /src/
+COPY ./analytics/ /src/
 
 # Install required dependencies  
 RUN apt update -y && apt install -y build-essential libpq-dev
